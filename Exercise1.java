@@ -1,4 +1,5 @@
-public class DataStrucAlgo {
+
+public class Exercise1 {
 
     //Sum of the first n natural numbers
     public int sum(int n) {
@@ -59,13 +60,13 @@ public class DataStrucAlgo {
 
 
     public static void main(String[] args) {
-        DataStrucAlgo rec = new DataStrucAlgo();
+        Exercise1 rec = new Exercise1();
 
         // Test sum function
         System.out.println("Sum of first 5 natural numbers: " + rec.sum(5)); // Output: 15
 
         // Test evenSquares function
-        System.out.println("Sum of squares of first 3 even numbers: " + rec.evenSquares(3)); // Output: 56 (4^2 + 6^2 + 8^2)
+        System.out.println("Sum of squares of first 3 even numbers: " + rec.evenSquares(3)); // Output: 56 (2^2 + 4^2 + 6^2)
 
         // Test fib function
         System.out.println("5th Fibonacci number: " + rec.fib(5)); // Output: 5
