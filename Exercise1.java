@@ -1,4 +1,5 @@
-public class DataStrucAlgo {
+
+public class Exercise1 {
 
     //Sum of the first n natural numbers
     public int sum(int n) {
@@ -59,7 +60,7 @@ public class DataStrucAlgo {
 
 
     public static void main(String[] args) {
-        DataStrucAlgo rec = new DataStrucAlgo();
+        Exercise1 rec = new Exercise1();
 
         // Test sum function
         System.out.println("Sum of first 5 natural numbers: " + rec.sum(5)); // Output: 15
